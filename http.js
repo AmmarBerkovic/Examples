@@ -6,7 +6,7 @@ const server = http.createServer((req, res) => {
       res.end('Homepage')
       break;
     case '/misa':
-      res.end('Misapage')
+      res.end('<h1>Misyyyy1111!!!</h1>')
       break;
     default: 
       res.end('Nejma')
